@@ -48,7 +48,6 @@ public class TestExtent implements IReporter {
                     test.log(status, "Test " + status.toString().toLowerCase()
                             + "ed");
                 }
-                //extent report//
 
                 extent.endTest(test);
             }
